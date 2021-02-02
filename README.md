@@ -1,7 +1,14 @@
-# DS2431_Arduino
-Arduino library for Maxim DS2431 1-Wire EEPROM
+# DS243x_Arduino
+Arduino library for Maxim 1-Wire EEPROMs
 
-Tested on Adafruit Feather M0.
+supported chips:
+* DS2431
+* DS2433
+
+Tested on:
+* Adafruit Feather M0. (DS2431)
+* Arduino UNO (DS2433)
+
 
 ## Required libraries
 * OneWire <https://github.com/PaulStoffregen/OneWire>
