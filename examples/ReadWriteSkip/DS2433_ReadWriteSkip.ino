@@ -47,7 +47,7 @@ void setup()
   }
 
   // Read all memory content
-  byte data[128];
+  byte data[DS2433_EEPROM_SIZE];
   eeprom.read(0, data, sizeof(data));
 
   Serial.println("Memory contents : ");
